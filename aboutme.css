@@ -1,0 +1,86 @@
+main {
+    margin: 90px;
+    box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skill-container {
+  display: grid;
+  gap: 10px;
+  max-width: 800px;
+  margin: auto; 
+}
+
+.skill-item {
+  background: #fff;
+  border: 1px solid #a1a1a1;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.skill-item strong {
+  font-size: 16px;
+  color: #b36b00;
+}
+
+.skill-item p {
+  margin: 0;
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  .skill-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.container {
+  background: #f8f5e7;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 10px;
+  max-width: 800px;
+  margin: auto; 
+}
+
+.orange {
+    color: #ee5d0a;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+
+/* Tables */
+
+.colortd {
+  color: #b36b00;
+}
+
+.hobbies table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.hobbies th, .hobbies td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.hobbies th {
+  color: #000;
+}
+
+.hobbies tr:last-child td {
+  border-bottom: none;
+}
